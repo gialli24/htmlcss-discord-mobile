@@ -62,7 +62,8 @@ button {
 }
 
 .card {
-    background-color: #6B73D8;
+    /* background-color: #6B73D8; */
+    background-image: linear-gradient(to bottom right, #6B73D8, #525dff);
     border-radius: 40px;
     padding: 80px 40px;
     margin-top: 80px;
@@ -74,8 +75,8 @@ button {
     width: 130px;
     position: absolute;
     top: 0;
-    left: 0;
-    translate: 50% -50%;
+    left: 50%;
+    translate: -50% -50%;
     margin-bottom: 20px;
 }
 
